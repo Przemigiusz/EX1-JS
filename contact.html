@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar-list">
+                <li class="navbar-portal-name"><span>AROUND THE KITCHEN</span></li>
+                <li class="navbar-el"><a href="index.html">HOME</a></li>
+                <li class="navbar-el"><a href="about.html">ABOUT</a></li>
+                <li class="navbar-el"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="centered-column-container stylish-container">
+            <h1>AROUND THE KITCHEN</h1>
+            <h2>The only culinary blog you need</h2>
+        </div>
+    </header>
+    <section class="centered-column-container">
+        <div class="custom-top-bottom-border-container custom-width align-text-center">
+            <h2>Contact Us</h2>
+        </div>
+        <form class="centered-column-container flex-wrap w-40 margin-top-3">
+            <div class="form-field">
+                <label class="custom-form-control-label" for="pet-select">Choose the reason for contact</label>
+                <select class="custom-form-select-control" name="pets" id="pet-select">
+                    <option class="custom-option" value="" selected></option>
+                    <option class="custom-option" value="recipe-inquiries">Recipe Inquiries</option>
+                    <option class="custom-option" value="suggestions-ideas">Suggestions and Ideas</option>
+                    <option class="custom-option" value="collaboration-promotion">Collaboration/Promotion</option>
+                    <option class="custom-option" value="technical-assistance">Technical Assistance</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label class="custom-form-control-label" for="first-name">First Name</label>
+                <input class="custom-form-input-control" type="text" id="first-name" name="first-name" />
+            </div>
+            <div class="form-field">
+                <label class="custom-form-control-label" for="last-name">Last Name</label>
+                <input class="custom-form-input-control" type="text" id="last-name" name="last-name" />
+            </div>
+            <div class="form-field">
+                <label class="custom-form-control-label" for="email">Email</label>
+                <input class="custom-form-input-control" type="email" id="email" name="email" />
+            </div>
+            <div class="form-field">
+                <label class="custom-form-control-label" for="reason">Give us details of the reason for contact</label>
+                <textarea class="custom-form-textarea-control" id="reason" name="reason" rows="5"
+                    cols="33">The reason why I am contacting You is...</textarea>
+            </div>
+        </form>
+    </section>
+    <footer class="social-media-footer">
+        <h3>Sprawdź nasze media społecznościowe</h3>
+        <ul class="footer-list">
+            <li class="footer-el"><a href="/">Twitter</a></li>
+            <li class="footer-el"><a href="/">Instagram</a></li>
+            <li class="footer-el"><a href="/">Facebook</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
